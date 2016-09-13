@@ -5,15 +5,96 @@
   
   <title>sublime | 技术博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="hello world">
+  <meta name="description" content="Sublime Text
+
+
+
+天下武功，唯快不破
+
+
+Sublime Text特点
+
+打开速度快
+强大的命令面板
+多行编辑
+方便的分页显示
+高度可定制化
+跨平台
+
+
+打开方式
+
+关联文件，直接双击打开
+通过命令行打开subl
+
+常用快捷键
+ctrl+shilf+p:打开命令面板
+ctrl+p：搜索项目中的文件
+ctrl+g:跳到第几行
+ctrl+shift+m():选中括号内容
+ctrl+m:光">
 <meta property="og:type" content="article">
 <meta property="og:title" content="sublime">
 <meta property="og:url" content="http://yoursite.com/2016/09/13/sublime/">
 <meta property="og:site_name" content="技术博客">
-<meta property="og:description" content="hello world">
+<meta property="og:description" content="Sublime Text
+
+
+
+天下武功，唯快不破
+
+
+Sublime Text特点
+
+打开速度快
+强大的命令面板
+多行编辑
+方便的分页显示
+高度可定制化
+跨平台
+
+
+打开方式
+
+关联文件，直接双击打开
+通过命令行打开subl
+
+常用快捷键
+ctrl+shilf+p:打开命令面板
+ctrl+p：搜索项目中的文件
+ctrl+g:跳到第几行
+ctrl+shift+m():选中括号内容
+ctrl+m:光">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="sublime">
-<meta name="twitter:description" content="hello world">
+<meta name="twitter:description" content="Sublime Text
+
+
+
+天下武功，唯快不破
+
+
+Sublime Text特点
+
+打开速度快
+强大的命令面板
+多行编辑
+方便的分页显示
+高度可定制化
+跨平台
+
+
+打开方式
+
+关联文件，直接双击打开
+通过命令行打开subl
+
+常用快捷键
+ctrl+shilf+p:打开命令面板
+ctrl+p：搜索项目中的文件
+ctrl+g:跳到第几行
+ctrl+shift+m():选中括号内容
+ctrl+m:光">
 
   
     <link rel="alternative" href="/atom.xml" title="技术博客" type="application/atom+xml">
@@ -83,7 +164,70 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>hello world</p>
+        <h2 id="Sublime_Text">Sublime Text</h2>
+<!--![战神争霸](http://sy.static.youease.net/zsws/youease/icon.png "tup")-->
+
+<blockquote>
+<p>天下武功，唯快不破</p>
+</blockquote>
+<hr>
+<h3 id="Sublime_Text特点">Sublime Text特点</h3>
+<ol>
+<li>打开速度快</li>
+<li>强大的命令面板</li>
+<li>多行编辑</li>
+<li>方便的分页显示</li>
+<li>高度可定制化</li>
+<li>跨平台</li>
+</ol>
+<hr>
+<h3 id="打开方式">打开方式</h3>
+<ol>
+<li>关联文件，直接双击打开</li>
+<li>通过命令行打开subl</li>
+</ol>
+<h3 id="常用快捷键">常用快捷键</h3>
+<pre><code>ctrl+shilf+p:打开命令面板
+ctrl+p：搜索项目中的文件
+ctrl+g:跳到第几行
+ctrl+<span class="keyword">shift</span>+<span class="keyword">m</span>():选中括号内容
+ctrl+<span class="keyword">m</span>:光标移动到匹配的括号
+alt+<span class="keyword">shift</span>+<span class="number">2</span>:分屏
+ctrl+k+b:关闭侧边栏
+</code></pre><h3 id="build_system">build system</h3>
+<p><a href="http://docs.sublimetext.info/en/latest/index.html" target="_blank" rel="external">http://docs.sublimetext.info/en/latest/index.html</a></p>
+<pre><code>{
+    "<span class="attribute">cmd</span>": <span class="value">[<span class="string">"python"</span>, <span class="string">"-u"</span>, <span class="string">"$file"</span>]</span>,
+    "<span class="attribute">file_regex</span>": <span class="value"><span class="string">"^[ ]*File \"(...*?)\", line ([0-9]*)"</span></span>,
+    "<span class="attribute">selector</span>": <span class="value"><span class="string">"source.python"</span>
+</span>}
+</code></pre><h3 id="sneppits">sneppits</h3>
+<pre><code><span class="tag">&lt;<span class="title">snippet</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">content</span>&gt;</span><span class="cdata">&lt;![CDATA[
+    for root, dirs, files in os.walk(${1:filePath}):
+        for fileItem in files:
+        name, ext = os.path.splitext(fileItem)
+        ${2}
+    ]]&gt;</span><span class="tag">&lt;/<span class="title">content</span>&gt;</span>
+    <span class="comment">&lt;!-- Optional: Set a tabTrigger to define how to trigger the snippet --&gt;</span>
+    <span class="tag">&lt;<span class="title">tabTrigger</span>&gt;</span>walk<span class="tag">&lt;/<span class="title">tabTrigger</span>&gt;</span>
+    <span class="comment">&lt;!-- Optional: Set a scope to limit where the snippet will trigger --&gt;</span>
+    <span class="tag">&lt;<span class="title">scope</span>&gt;</span>source.python<span class="tag">&lt;/<span class="title">scope</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">snippet</span>&gt;</span>
+</code></pre><h3 id="plugins">plugins</h3>
+<ol>
+<li>安装</li>
+<li>使用</li>
+<li>编辑</li>
+</ol>
+<hr>
+<h3 id="案例">案例</h3>
+<ul>
+<li>excel转csv脚本</li>
+<li>addPng添加图片后缀脚本</li>
+<li>多开客户访问</li>
+<li>hexo</li>
+</ul>
 
       
     </div>
